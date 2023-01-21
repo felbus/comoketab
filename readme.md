@@ -1,4 +1,6 @@
-# comoketab - bookmarks and readinglist for chrome and brave
+# comoketab 
+
+## Bookmarks and readinglist for chrome and brave
 
 #### Have a new tab page with all your bookmarks and readinglist
 
