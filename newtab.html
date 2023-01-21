@@ -1,0 +1,75 @@
+    <html>
+      <head>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+          <link rel="stylesheet" href="styles/comoketab.css">
+      </head>
+      <body>
+
+        <!-- OVERLAYS -->
+        <div id="choices_overlay">
+          <div id="choices">
+              <p><div id="choice_sort" class="choice_button"><span class="fa fa-2x fa-sort fa-fw"></span> Sort bookmarks</div></p>
+              <p><div id="choice_delete" class="choice_button"><span class="fa fa-2x fa-trash-alt fa-fw"></span> Delete a bookmark</div></p>
+              <p><div id="choice_edit" class="choice_button"><span class="fa fa-2x fa-edit fa-fw"></span> Edit bookmark details</div></p>
+          </div>
+        </div>
+
+        <div id="overlay_delete">
+            <div id="delete">
+                <div id="close_delete">
+                    <div id="delete_overlay_close"><span class="fa fa-2x fa-times-circle fa-fw"></span></div>
+                </div>
+
+                <div id="delete_items"></div>
+            </div>
+        </div>
+
+        <div id="overlay_sort">
+            <div id="settings_sort">
+
+                <div id="close_os">
+                    <div id="save_sort" class="edit_button"><span class="fa fa-2x fa-save fa-fw"></span></div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div id="close_sort" class="edit_button"><span class="fa fa-2x fa-times-circle fa-fw"></span></div>
+                </div>
+                <div id="sort_items" class="sortable"></div>
+            </div>
+        </div>
+
+        <div class="overlay_edit">
+          <div id="settings_edit">
+
+              <div id="close_o">
+                <div id="save_settings" class="edit_button"><span class="fa fa-2x fa-save fa-fw"></span></div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div id="close_overlay" class="edit_button"><span class="fa fa-2x fa-times-circle fa-fw"></span></div>
+              </div>
+            <div id="settings_items"></div>
+          </div>
+        </div>
+        <!-- OVERLAYS -->
+
+
+        <div id="settings_button">
+            <span class="fa fa-2x fa-cog fa-fw"></span>
+        </div>
+
+        <div id="container">
+
+          <div id="readinglist">
+
+          </div>
+
+          <div id="apps">
+            <p id="bookmarks">
+
+            </p>
+          </div>
+        </div>
+      </body>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      <script src="js/comoketab.js"></script>
+    </html>

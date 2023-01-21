@@ -1,0 +1,34 @@
+{
+  "name": "comoketab",
+  "version": "1.0.0",
+  "description": "npm install gulp-cli -g",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bower": "^1.8.4",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^1.1.0",
+    "gulp-javascript-obfuscator": "^1.1.4",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-minify": "^3.1.0",
+    "run-sequence": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felbus/comoketab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felbus/comoketab/issues"
+  },
+  "homepage": "https://github.com/felbus/comoketab#readme"
+}

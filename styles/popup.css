@@ -1,0 +1,74 @@
+/*
+Grey and Blue
+#36404a
+#3bafda
+*/
+
+
+body {
+  background-color: #36404a;
+  width: 200px;
+}
+
+hr {
+    border: none;
+    border-top: 1px dashed grey;
+}
+
+.tlight {
+    color: #E3E3E3;
+}
+
+.green {
+    color: lightgreen;
+}
+
+#plus {
+  opacity: 0.9;
+}
+
+#pophead img {
+  width:50px;
+  height:50px;
+  margin-top: 5px;
+}
+
+#pophead {
+  height:65px;
+  text-align: center;
+}
+
+#content {
+  font-weight: 500;
+  font-size: 13px;
+  color: #636160;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#buts {
+  margin: auto;
+  text-align: center;
+}
+
+.button:hover {
+  cursor: hand;
+}
+
+.button {
+    background-color: #3bafda;
+    border: none;
+    padding-bottom: 5px;
+    color: white;
+    margin-top: 13px;
+    margin-bottom: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    width: 50px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}

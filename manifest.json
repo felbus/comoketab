@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "comoketab",
+  "description": "tabby booky marky",
+  "version": "0.0.1",
+  "permissions" : [
+    "management",
+    "activeTab",
+    "clipboardWrite",
+    "tabs",
+    "storage",
+    "unlimitedStorage",
+    "http://localhost:5000/"
+  ],
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  },
+  "browser_action": {
+    "default_popup":"popup.html"
+  },
+  "icons": {
+    "16": "img/grid.png",
+    "48": "img/grid.png",
+    "128": "img/grid.png"
+  },
+  "content_security_policy": "script-src 'unsafe-inline' 'self' https://ajax.googleapis.com; object-src 'self'"
+}
